@@ -11,4 +11,5 @@ def confirm(order):
 def handle_order(request):
     order = validate(request)
     price(order)
+    inventory.reserve(order.items)  # hold stock before confirming
     return confirm(order)
