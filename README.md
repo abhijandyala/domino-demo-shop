@@ -9,3 +9,5 @@ Each top-level folder is deployed to a different system that Domino has modelled
 3. It posts the verdict, the cause and any fix it tested as a comment, plus a `domino/check` commit status.
 
 Pull requests Domino has no model for get a "not covered" comment and no verdict.
+
+Questions about this demo: open an issue.
